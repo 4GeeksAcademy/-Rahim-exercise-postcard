@@ -6,9 +6,23 @@
 body {
 	background: black;
 }
-.postcard{
-    background: white;
-    width: 400px;
-    height: 300px;
-    margin: auto;
+.postcard {
+	background: white;
+	width: 400px;
+	height: 300px;
+	margin: auto;
+}
+.postcard-header {
+	display: flex;
+}
+.postcard-header img {
+	width: 50px;
+	height: 50px;
+}
+.postcard-header h1 {
+	width: 400px;
+	margin: 0;
+}
+.postcard-body {
+	display: flex;
 }
